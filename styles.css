@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d53c3c;
+}
+
+.container {
+    text-align: center;
+    background-color: #14e472;
+    border-radius: 1px;
+    padding: 1px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.badge {
+    background-color:red;
+    color:#14e472;;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.choice img{
+    width: 112px;
+    height: 120px;
+}
